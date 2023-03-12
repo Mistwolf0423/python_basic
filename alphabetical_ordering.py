@@ -6,7 +6,7 @@ d = []
 
 for char in s:
     if char.isnumeric():
-        if int(char)%2 == 0:
+        if int(char) % 2 == 0:
             d.append(char)
         else:
             c.append(char)
@@ -16,4 +16,4 @@ for char in s:
         else:
             b.append(char)
 
-print(''.join(sorted(b))+''.join(sorted(a))+''.join(sorted(c))+''.join(sorted(d)))
+print("".join(sorted(b)) + "".join(sorted(a)) + "".join(sorted(c)) + "".join(sorted(d)))

@@ -4,10 +4,10 @@ z = int(input())
 n = int(input())
 
 coor = []
-for i in range(x+1):
-    for j in range(y+1):
-        for k in range(z+1):
-            if i+j+k == n:
+for i in range(x + 1):
+    for j in range(y + 1):
+        for k in range(z + 1):
+            if i + j + k == n:
                 continue
-            coor.append([i,j,k])                
+            coor.append([i, j, k])
 print(coor)

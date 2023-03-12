@@ -1,4 +1,4 @@
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
     student_marks = {}
     for _ in range(n):
@@ -7,5 +7,5 @@ if __name__ == '__main__':
         student_marks[name] = scores
     query_name = input()
     na = student_marks[query_name]
-    dt = sum(na)/len(na)
+    dt = sum(na) / len(na)
     print("%.2f" % dt)
